@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>paleoMiocene.kmz</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>paleoMio</name>
+		<open>1</open>
+		<Placemark>
+			<name>Fitzcarrald</name>
+			<Point>
+				<coordinates>-73.332671,-10.605186,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Contamana</name>
+			<Point>
+				<coordinates>-74.989163,-7.263488999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ituzaingo Fm.</name>
+			<Point>
+				<coordinates>-60.32894,-31.885043,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Urumaco</name>
+			<LookAt>
+				<longitude>-69.78254520306461</longitude>
+				<latitude>11.40400731900109</latitude>
+				<altitude>0</altitude>
+				<heading>7.655421940805661</heading>
+				<tilt>0.133589826054692</tilt>
+				<range>78811.97922354699</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-69.77841134572355,11.37511484133473,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Makaraipao</name>
+			<LookAt>
+				<gx:TimeStamp><when>2019-07-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-71.34011110035888</longitude>
+				<latitude>11.90888889930725</latitude>
+				<altitude>0</altitude>
+				<heading>-7.40727331152742e-11</heading>
+				<tilt>0</tilt>
+				<range>1177.565353855083</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.34011110035887,11.90888889930725,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>La Venta</name>
+			<LookAt>
+				<gx:TimeStamp><when>2019-07-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-75.1605813857295</longitude>
+				<latitude>3.273698283197198</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3669272771248394</heading>
+				<tilt>1.930649196435721</tilt>
+				<range>14480.89699757164</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.1605813857295,3.273698283197198,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Acre</name>
+			<LookAt>
+				<gx:TimeStamp><when>2019-07-19</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-70.44573560551045</longitude>
+				<latitude>-8.163111996292452</latitude>
+				<altitude>0</altitude>
+				<heading>-0.5483675343107297</heading>
+				<tilt>7.379230751192949</tilt>
+				<range>6041.304704181078</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-70.42324126163763,-8.159333850718268,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
